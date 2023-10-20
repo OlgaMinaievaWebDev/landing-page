@@ -3,3 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.hero {
+  background-color: #1f2937;
+  width: 100vw;
+  height: 90vh;
+}
+
+.hero h1 {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header {
+  height: 48px;
+  background-color: #fb5607;
+}
+
+.nav-links {
+  display: flex;
+  max-width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px;
+}
+
+.logo,
+.links {
+  margin-top: 16px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.section h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.section p {
+  color: #e5e7eb;
+}
+
+.button {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
